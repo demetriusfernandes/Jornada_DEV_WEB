@@ -22,6 +22,9 @@ body {
 	text-align: center;
 	font-weight: bold;
 }
+#contato{
+	padding: 10px;
+}
 a{
 	color: #4b566a;
 	text-decoration: none;
