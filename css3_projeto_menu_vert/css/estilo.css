@@ -1,0 +1,61 @@
+/* barra de nagevação vertical */
+
+ul{
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+
+}
+li{
+    padding: 5px 20px;
+    border: 1px solid red;
+    background-image: url(../img/seta.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: orange;
+}
+
+ul#exercicio{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    
+}
+
+ul#exercicio a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background-image: url(../img/menu.png);
+    background-color: #f7b600;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: #000;
+    text-decoration: none;
+    text-indent: 29px;
+    line-height: 41px;
+}
+
+ul#exercicio a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+ul#exercicio li{
+    padding: 0px;
+    background: white;
+    border: 0px;
+}
+#home #exercicio .home a,
+#sobre #exercicio .sobre a,
+#servicos #exercicio .servicos a,
+#noticias #exercicio .noticias a,
+#contato #exercicio .contato a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}

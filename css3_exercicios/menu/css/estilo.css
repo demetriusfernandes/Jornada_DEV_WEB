@@ -1,0 +1,33 @@
+body{
+    background: white
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#nav_vert li a{
+    width: 200px;
+    height: 40px;
+    text-indent: 29px;
+    line-height: 40px;
+    background: #f7b600 url(../img/menu.png) left no-repeat;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: #000;
+}
+#nav_vert li a:hover{
+    background: #f99200 url(../img/menu.png) right no-repeat;
+    color: #fff;
+}
+
+#home #nav_vert .home a,
+#sobre #nav_vert .sobre a,
+#servicos #nav_vert .servicos a,
+#noticias #nav_vert .noticias a,
+#contato #nav_vert .contato a{
+    background: #f99200 url(../img/menu.png) right no-repeat;
+    color: #fff;
+}
