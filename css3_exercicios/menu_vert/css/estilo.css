@@ -1,0 +1,42 @@
+h2{
+    margin: 0px;
+    color: salmon;
+}
+h3{
+    margin: 0px;
+    color: rgb(35, 110, 223);
+}
+body{
+    margin: 30px;
+}
+#menu_vert_principal{
+    width: 200px;
+    margin: 0px auto;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #000;
+    text-indent: 29px;
+    background: #f7b600 url(../img/menu.png) no-repeat left; 
+}
+
+li a:hover{
+    background: #413f3e url(../img/menu.png) no-repeat right; 
+    color: #fff;
+}
+#home #menu_vert_principal #menu_v #m_home a,
+#sobre #menu_vert_principal #menu_v #m_sobre a,
+#servicos #menu_vert_principal #menu_v #m_servicos a,
+#noticias #menu_vert_principal #menu_v #m_noticias a,
+#contato #menu_vert_principal #menu_v #m_contato a{
+    background: #ff9100 url(../img/menu.png) no-repeat right; 
+    color: #fff;
+}
